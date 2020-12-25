@@ -1,0 +1,117 @@
+.rhap_container {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none
+}
+
+.rhap_time {
+    color: #000000;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.rhap_main-controls-button {
+    margin: 0 3px;
+    color: #000000;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+}
+
+.rhap_stacked .rhap_controls-section {
+    margin-top: 5px;
+}
+
+.rhap_main-controls-button:hover {
+    color: rgb(179, 167, 7); 
+}
+
+.rhap_play-pause-button {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.rhap_volume-bar {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color: #252424;
+    border-radius: 2px;
+}
+
+.rhap_volume-indicator {
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    left: 0;
+    top: -4px;
+    background: #000000;
+    opacity: 1;
+    border-radius: 50px;
+    box-shadow: rgba(134, 134, 134, 0.5) 0 0 3px;
+    cursor: pointer;
+}
+
+.rhap_volume-indicator:hover {
+    background-color: rgb(179, 167, 7); 
+}
+
+.rhap_volume-button {
+    font-size: 26px;
+    color: #000000;
+}
+
+.rhap_volume-button:hover {
+    color: rgb(179, 167, 7); 
+}
+
+.rhap_repeat-button {
+    font-size: 26px;
+    color: #000000;
+}
+
+.rhap_repeat-button:hover {
+    color: rgb(179, 167, 7); 
+}
+
+.rhap_progress-bar-show-download {
+    background-color: rgba(192, 185, 185, 0.863);
+}
+
+.rhap_progress-indicator {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    top: -8px;
+    background: #000000;
+    border-radius: 50px;
+    box-shadow: rgba(134, 134, 134, 0.5) 0 0 5px;
+}
+
+.rhap_progress-indicator:hover {
+    background-color: rgb(179, 167, 7); 
+}
+
+.rhap_progress-filled {
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(179, 167, 7); 
+    border-radius: 2px;
+}
+
+.rhap_download-progress {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: #252424;
+    border-radius: 2px;
+}

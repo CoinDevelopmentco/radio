@@ -1,0 +1,113 @@
+.container-fluid {
+    top: 0%;
+    position: fixed;
+    background-color: white;
+    height: 122px;
+    color: black;
+    z-index: 20;
+}
+
+.col {
+    font-family: 'Anton', sans-serif;
+}
+
+.artist {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 110px;
+    min-width: 110px;
+}
+
+.logo {
+    font-size: 55px;
+    margin-top: 3px;
+    overflow: hidden;
+    transition: .3s;
+    animation: ease-in-out;
+    position: relative;
+}
+
+.playlist {
+    padding-top: 10px;
+    overflow: hidden;
+    transition: .3s;
+    animation: ease-in-out;
+    position: relative;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.logo:hover{
+    transform: scale(1.075);
+    color: rgb(179, 167, 7);
+    cursor: default;
+}
+
+.icon {
+    max-height: 90px;
+}
+
+.album {
+    max-height: 110px;
+    margin-top: 10px;
+    transition: .3s;
+    animation: ease-in-out;
+    position: relative;
+    z-index: 10;
+}
+
+.album:hover {
+    transform: scale(1.075);
+}
+
+.musicplayer {
+    position: relative;
+    margin-top: 40px;
+}
+
+.description.col {
+    margin-left: 0px;
+    margin-top: -55px; 
+    padding-left: 0px;
+    text-align: center;
+}
+
+.description-inner {
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    animation: ease-in-out;
+    cursor: help;
+    max-width: 215px;
+    margin-left: 115px;
+}
+
+.description-inner:hover {
+    transform: scale(1.075);
+    color: rgb(179, 167, 7);
+}
+
+.signInOut {
+    position: relative;
+    margin-right: 15px;
+    margin-top: -122px;
+    padding-right: 0px;
+    text-align: right;
+    max-width: 158px;
+    max-height: 30px;
+}
+
+.artist-info {
+    display: flex;
+    padding-right: 30px;
+    padding-left: 0px;
+    flex: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    max-width: 50%;
+}
